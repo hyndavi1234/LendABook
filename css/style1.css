@@ -1,0 +1,184 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body 
+{
+  margin: 0;
+}
+
+/*styling the side navigation bar*/
+.sidenav 
+{
+position: -webkit-sticky;
+position: sticky;
+width: 180px;
+background-color: #f1f1f1;
+/*background-color: #262626;*/
+}
+.sidenav a 
+{
+padding: 25px ;
+text-decoration: none;
+font-size: 13px;
+font-family:verdana;
+color: black;
+display: block;
+}
+.sidenav a:hover 
+{
+color: black;
+background-color:#bfbfbf;
+}
+
+
+
+/* Style the header */
+.header
+ {
+    /*background-color: #262626;*/
+    background-color: #f1f1f1;
+    width:100%; 
+ }
+.title
+{
+   float:left;
+   padding: 5px;
+   padding-left:25px;
+   width:50%;
+   /*text-align:right;*/
+   color:slateblue;   
+}
+
+/* Style the top navigation bar */
+header.topnav {
+    overflow: hidden;
+    width:50%;
+    float:right;
+}
+
+/* Style the topnav links */
+.topnav a {
+    
+    float:right;
+    display: inline;
+    color: slateblue;
+    padding:20px;
+    padding-top:25px;
+    text-decoration: none;
+    font-size:15px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: black;
+    background-color:#bfbfbf;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    background-color:ff0000;
+}
+
+
+
+
+/* Middle column */
+.column.middle {
+    width:85%;
+}
+
+.row
+{
+    margin-bottom: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side,.column.middle {
+        width: 100%;
+    }
+}
+
+
+/*heading styles*/
+h1 , h2{
+    font-family:Trebuchet MS;
+}
+.right
+{
+  text-align: right;
+}
+
+
+/*styling the registration page*/
+table
+{
+    width:40%;
+}
+.inputheading
+{
+	padding: 5px;
+	text-align: right;
+	color: #4d4d4d;
+}
+.inputbox
+{
+	color: #1a1a1a;
+}
+@media screen and (max-width: 700px)
+{
+	.inputheading
+	{
+		padding-left: 5px;
+	}
+	.inputbox, .btn_submit
+	{
+		margin: 5px;
+	}
+	.inputbox
+	{
+		color: #1a1a1a;
+		height: 20px;
+		width: 95%;
+	}
+}
+@media screen and (min-width: 701px)
+{
+	.inputheading 
+	{
+		padding-left: 15px;
+	}
+	.inputbox, .btn_submit
+	{
+		margin: 15px;
+	}
+	.inputbox
+	{
+		color: #1a1a1a;
+		height: 30px;
+		width: 100%;
+	}
+}
+.btn_submit
+{
+	background-color:green;
+	color: white;
+	width: 35%;
+	height: 30px;
+}
