@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 
-<link rel="stylesheet" type="text/css" href="style1.css">
-<link rel="stylesheet" type="text/css" href="AccessStyle.css">
+<link rel="stylesheet" type="text/css" href="./css/style1.css">
+<link rel="stylesheet" type="text/css" href="./css/AccessStyle.css">
 </head>
 <body>
 <div class="header">
